@@ -1,9 +1,9 @@
-/* Copyright (C) 2021 insaaf
+/* Copyright (C) 2021 
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Insaaf
+ 
 */
 
 const fs = require('fs');
@@ -28,7 +28,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'NEUTRO;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'ASENA;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 
